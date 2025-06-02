@@ -5,9 +5,7 @@ Este projeto é um exemplo prático desenvolvido para o seminário da disciplina
 O principal objetivo deste projeto é ilustrar como estruturar e executar testes unitários em uma aplicação Java, promovendo boas práticas de desenvolvimento e garantindo a qualidade do código.
 
 📁 Estrutura do Projeto
-css
-Copiar
-Editar
+```
 teste-usuario/
 ├── src/
 │   ├── main/
@@ -21,6 +19,8 @@ teste-usuario/
 │               └── exemplo/
 │                   └── UserServiceTest.java
 ├── pom.xml
+
+```
 ⚙️ Tecnologias Utilizadas
 Java 8: Linguagem de programação utilizada no desenvolvimento.
 
@@ -31,22 +31,19 @@ JUnit 5: Framework para a criação e execução de testes unitários.
 🚀 Como Executar os Testes
 Clone o repositório:
 
-bash
-Copiar
-Editar
+```
 git clone https://github.com/AndrielsonLTeza/TesteUsuarioTDS.git
+```
 Navegue até o diretório do projeto:
 
-bash
-Copiar
-Editar
+```
 cd TesteUsuarioTDS/teste-usuario
+```
 Execute os testes com Maven:
 
-bash
-Copiar
-Editar
+```
 mvn test
+```
 Os resultados dos testes serão exibidos no console. Relatórios detalhados podem ser encontrados no diretório target/surefire-reports.
 
 ⚠️ Avisos Durante a Execução
