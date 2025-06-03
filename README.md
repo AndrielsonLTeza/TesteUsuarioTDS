@@ -46,6 +46,20 @@ mvn test
 ```
 Os resultados dos testes serão exibidos no console. Relatórios detalhados podem ser encontrados no diretório target/surefire-reports.
 
+O comando mvn clean verify é usado no Maven, uma ferramenta de automação de build para projetos Java. Ele executa duas fases do ciclo de vida do Maven: clean e verify. Vamos explicar cada uma:
+```
+mvn clean verify
+```
+🔹mvn clean
+Objetivo: Limpar o projeto.
+
+O que faz: Remove a pasta target/, que contém os artefatos compilados, testes, relatórios, etc.
+
+🔹 mvn verify
+Objetivo: Verificar se o projeto atende todos os critérios de qualidade, testes e validações.
+
+O que faz: Executa todas as fases anteriores até verify:
+
 ⚠️ Avisos Durante a Execução
 Durante a execução dos testes, alguns avisos podem ser exibidos no console, como:
 
